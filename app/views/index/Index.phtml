@@ -1,0 +1,9 @@
+<h1>Artigos</h1>
+
+<ul>
+    <?php foreach ($this->views->artigos as $value) : ?>
+        <li><?= $value['ARTIGO']; ?></li>
+        <p><?= $value['CONTEUDO']; ?></p>
+    <?php endforeach?>
+</ul>
+<?php
